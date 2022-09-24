@@ -15,43 +15,37 @@
   });
   
 
-
-let swiper = new Swiper(".slide-content", {
-  slidesPerView: 3,
-  spaceBetween: 25,
-  loop:true,
-  centerSlider: 'false',
-  fade:'true',
-  grabCursor:'true',
-  dynamicBullets:'true',
-  
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-    
-  },
-  breakpoints: {
-0: {
-slidesPerView:0.4,
-
-},
-520: {
-slidesPerView: 1,
-spaceBetween: 20,
-},
-768:{
-slidesPerView:2,
-},
-950: {
-slidesPerView: 3,
-spaceBetween: 25,
-},
-
-}
-} );
-
 })();
 
 
 
 
+$(".slider").owlCarousel({
+  loop:true,
+  autoplay:true,
+  margin:15,
+  autoplayTimeout:3000,
+  autoplayHoverPause:true,
+  responsiveClass:true,
+  responsive:{
+      0:{
+          items:1,
+          nav:true
+      },
+      600:{
+          items:2,
+          nav:false,
+        
+      },
+      768:{
+        items:3,
+        nav:false,
+      },
+      1000:{
+          items:5,
+          nav:true,
+          loop:true,
+      }
+    }
+
+ });

@@ -368,7 +368,29 @@ iframe{
     color: var(--green-300);
   }
   /* Membros */
-
+  .slider{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .card{
+    max-width: 1120px;
+    width: 100%;
+    
+  
+  }
+  
+  .container{
+    width: 250px;
+    height: 350px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+    background:var(--white);
+    border-radius: 20px 20px 20px 20px;
+    
+    
+  }
+  
   .slide-container{
     max-width: 1120px;
     width: 100%;
@@ -378,7 +400,7 @@ iframe{
   .slide-content{
     padding: 20px 20px;
      margin: 0 40px;
-  }
+  }/*
   .card{
     max-width: 280px;
     height: 350px;
@@ -386,7 +408,7 @@ iframe{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
     background:var(--white);
 
-  }
+  }*/
   .image-content, .card-content{
     display: flex;
     flex-direction: column;
@@ -406,7 +428,7 @@ iframe{
     height: 100%;
     width: 100%;
     background-image:url();
-    border-radius:25px 25px 0 25px ;
+    border-radius:20px 20px 0 20px ;
     background-image:url('../img/card.png');
     filter: brightness(0.8);
 

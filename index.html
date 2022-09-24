@@ -11,7 +11,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+  <script  src="https://code.jquery.com/jquery-3.6.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/swiper.bundle.min.css">
 
   <link rel="stylesheet" href="./css/style.css">
@@ -73,7 +75,7 @@
    <button class="button"> <a href="https://soundcloud.com/user-555016100" target="_blank">ver mais</a></button>
     </section>
 
-    <section class="about section" id="about">
+    <sec class="about section" id="about">
       <h1  class="titulo ">Quem somos ?</h1>
       <p class="text">
         Criado de fãs para fãs, o podcast Os Quatro Cantos traz uma releitura
@@ -84,10 +86,9 @@
         dessa série de livros fantásticos.
       </p>
       <h2 class="subtitulo">Membros</h2>
-      <div class="slide-container swiper">
-        <div class="slide-content">
-          <div class="card-wrapper swiper-wrapper">
-            <div class="card swiper-slide">
+      <div class="owl-carousel  slider">
+        <div class="card">
+          <div class="container">
               <div class="image-content">
                 <span class="overlay">
                 </span>
@@ -107,8 +108,11 @@
     
               </ul>
               </div>
-            </div>
-            <div class="card swiper-slide">
+            
+          </div>
+          </div>
+          <div class="card">
+            <div class="container">
               <div class="image-content">
                 <span class="overlay">
                 </span>
@@ -134,25 +138,33 @@
               </ul>
               </div>
             </div>
-            <div class="card swiper-slide">
-              <div class="image-content">
-                <span class="overlay">
-                </span>
-                <div class="card-image">
-                  <img src="./img/membros/bruno.jpg" alt="Bruno Amorim" class="card-img">
-    
+            </div>
+            <div class="card">
+              <div class="container">
+                <div class="image-content">
+                  <span class="overlay">
+                  </span>
+                  <div class="card-image">
+                    <img src="./img/membros/bruno.jpg" alt="Bruno Amorim" class="card-img">
+      
+                  </div>
+                </div>
+                <div class="card-content"><h2 class="name">Bruno Amorim</h2>
+                  
+                  <p class="description">Analista de Segurança da Informação</p>
+                  <ul class="social_icons">
+                    <li><a href="http://twitch.tv/skratos13" target="_blank"><i class="fab fa-twitch"></i></a></li>
+                    <li><a href="https://twitter.com/brunoamorimc13" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                </ul>
                 </div>
               </div>
-              <div class="card-content"><h2 class="name">Bruno Amorim</h2>
-                
-                <p class="description">Analista de Segurança da Informação</p>
-                <ul class="social_icons">
-                  <li><a href="http://twitch.tv/skratos13" target="_blank"><i class="fab fa-twitch"></i></a></li>
-                  <li><a href="https://twitter.com/brunoamorimc13" target="_blank"><i class="fab fa-twitter"></i></a></li>
-              </ul>
-              </div>
+
+
             </div>
-            <div class="card swiper-slide">
+        
+        
+          <div class="card">
+            <div class="container">
               <div class="image-content">
                 <span class="overlay">
                 </span>
@@ -172,7 +184,9 @@
               </ul>
               </div>
             </div>
-            <div class="card swiper-slide">
+          </div>
+          <div class="card">
+            <div class="container">
               <div class="image-content">
                 <span class="overlay">
                 </span>
@@ -190,9 +204,10 @@
     
               </ul>
               </div>
-            
             </div>
-            <div class="card swiper-slide">
+          </div>
+          <div class="card">
+            <div class="container">
               <div class="image-content">
                 <span class="overlay">
                 </span>
@@ -212,7 +227,9 @@
               </ul>
               </div>
             </div>
-            <div class="card swiper-slide">
+          </div>
+          <div class="card">
+            <div class="container">
               <div class="image-content">
                 <span class="overlay">
                 </span>
@@ -235,8 +252,7 @@
             </div>
           </div>
           
-        </div>
-       
+     
     
       </div>
     
