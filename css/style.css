@@ -20,7 +20,7 @@ html {
    --orange-800:#6D2000;
    --orange-400:#E86027;
    --black:#161616;
-   --fontMain:'Chinese Rocks';
+   --fontMain:'Chinese Rocks','Bebas Neue', cursive;
    --fontText:'PT Mono', monospace;
    --font-size:62.5% /*10px*/
 }
@@ -49,10 +49,9 @@ h1, h2, .button{
 }
 /* Menu*/
 header{
-  display: flex;
-justify-content: space-between;
- 
+  display: flex;justify-content: space-between;
    z-index: 10;
+   padding-bottom: 15px;
   
   }
   .logo{
@@ -75,7 +74,7 @@ justify-content: space-between;
     position: absolute;
     width: 40px;
     height: 5px;
-    background-color: var(--orange-400);
+    background-image: linear-gradient(to  right, #6D2000, #E86027);
     border-radius: 4px;
     transition: 0.5s;
     
@@ -158,8 +157,7 @@ justify-content: space-between;
 .banner img{
   width: 100%;
  margin-top: -20px;
-  
-
+ margin-bottom: 5rem;
 cursor: pointer;
 }/*
 
@@ -190,12 +188,12 @@ iframe{
 .button{
   padding: 1rem 0;
   width: 90%;
-
   background-image: linear-gradient(to bottom,#6D2000,#E86027 );
   border-radius: 15px;
   font-size: 1.5rem;
   border: none;
   margin-top: 1rem;
+  margin-bottom: 4rem;
   
 }
 .button a{
